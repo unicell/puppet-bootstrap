@@ -30,6 +30,9 @@ apt-get update >/dev/null
 echo "Installing wget..."
 apt-get install -y wget >/dev/null
 
+echo "Installing git..."
+apt-get install -y git >/dev/null
+
 # Install the PuppetLabs repo
 echo "Configuring PuppetLabs repo..."
 repo_deb_path=$(mktemp)
